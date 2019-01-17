@@ -1,0 +1,77 @@
+
+/*В макете указан платный шрифт, а все бесплатные демо версии не содержат стилей шрифта,
+ поэтому когда подключаем демо- он отличается от того, что в макете. Использовала другой шрифт,
+ по этой причине есть расхождения в пикселях (проверяла через пиксель-перфект)*/
+
+body {
+  background-color: #fdde7e;
+  font-size: 12px;
+  color: #333333;
+  padding-top: 50px;
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+}
+
+.flex_container {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex_item {
+  background-color: #ffffff;
+  width: 360px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #02995b;
+  margin-bottom: 19px;
+}
+
+h2 {
+  font-size: 46px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+h3 {
+  display: inline-flex;
+  width: 40%;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.flex_item img {
+  margin-bottom: 18px;
+}
+.biggest {
+
+  padding-top: 53px;
+  padding-bottom: 50px;
+}
+
+.biggest h1 {
+  margin-bottom: 43px;
+}
+
+.biggest img {
+  margin-bottom: 28px;
+}
